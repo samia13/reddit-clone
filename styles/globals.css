@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .headerIcons {
+    @apply w-7 h-7 text-gray-800 lg:p-1 lg:hover:text-gray-500 cursor-pointer;
+  }
+}
